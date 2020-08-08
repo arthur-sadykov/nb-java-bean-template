@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: nb.java.bean.template
+OpenIDE-Module-Localizing-Bundle: nb/java/bean/template/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

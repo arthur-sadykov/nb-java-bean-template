@@ -1,0 +1,19 @@
+<#assign licenseFirst = "/*">
+<#assign licensePrefix = " * ">
+<#assign licenseLast = " */">
+<#include "${project.licensePath}">
+
+<#if package?? && package != "">
+package ${package};
+</#if>
+
+/**
+ *
+ * <p>
+ * <br>Created: ${date?date?string["dd.MM.yyyy"]} ${time?time?string["HH:mm:ss"]}
+ *
+ * @author ${user}
+ */
+public class ${name} {
+
+}
